@@ -1,0 +1,24 @@
+{
+    "name": "denkwerk/sf-live-testing",
+    "description": "denkwerk testing challenge for Symfony Live 2017.",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marius Büscher",
+            "email": "marius.buescher@denkwerk.com"
+        },
+        {
+            "name": "Sylt Luwe Steen",
+            "email": "sylt-luwe.steen@denkwerk.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Denkwerk\\SfLiveTesting\\": "src/"
+        }
+    }
+}
