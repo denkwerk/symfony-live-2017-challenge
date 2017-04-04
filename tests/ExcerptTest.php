@@ -2,24 +2,29 @@
 namespace Denkwerk\Tests;
 
 use Denkwerk\Service\Fixtures\TextTrait;
+use Denkwerk\SfLiveTesting\ExcerptService;
 use PHPUnit\Framework\TestCase;
 
 class ExceptTest extends TestCase
 {
+    /** FIXME
+     * Your task is to fix these Tests
+     * Take a look at ExcerptService an add the necessary logic to pass trough all assertions
+     **/
 
     use TextTrait;
 
     public function testExcerptTextAboutDenkwerk()
     {
         $this->assertEquals(
-            (new \Denkwerk\Service\ExceptService())->createExcerptFromText($this->getTextAboutDenkwerk()),
+            (new ExcerptService())->createExcerptFromText($this->getTextAboutDenkwerk()),
             $this->getExcerptTextAboutDenkwerk());
     }
 
     public function testExcerptTextHowWeWork()
     {
         $this->assertEquals(
-            (new \Denkwerk\Service\ExceptService())->createExcerptFromText($this->getTextHowWeWork()),
+            (new ExcerptService())->createExcerptFromText($this->getTextHowWeWork()),
             $this->getExcerptTextHowWeWork()
         );
     }
@@ -28,7 +33,7 @@ class ExceptTest extends TestCase
     public function testExcerptTextDenkwerkClients()
     {
         $this->assertEquals(
-            (new \Denkwerk\Service\ExceptService())->createExcerptFromText($this->getTextDenkwerkClients()),
+            (new ExcerptService())->createExcerptFromText($this->getTextDenkwerkClients()),
             $this->getExcerptTextDenkwerkClients()
         );
     }
@@ -36,7 +41,7 @@ class ExceptTest extends TestCase
     public function testExcerptDescriptionForSymfonyDeveloperJob()
     {
         $this->assertEquals(
-            (new \Denkwerk\Service\ExceptService())->createExcerptFromText($this->getDescriptionForSymfonyDeveloperJob()),
+            (new ExcerptService())->createExcerptFromText($this->getDescriptionForSymfonyDeveloperJob()),
             $this->getExcerptDescriptionForSymfonyDeveloperJob()
         );
     }
@@ -44,7 +49,7 @@ class ExceptTest extends TestCase
     public function testExcerptDescriptionForFullStackDeveloperJob()
     {
         $this->assertEquals(
-            (new \Denkwerk\Service\ExceptService())->createExcerptFromText($this->getDescriptionForFullStackDeveloperJob()),
+            (new ExcerptService())->createExcerptFromText($this->getDescriptionForFullStackDeveloperJob()),
             $this->getExcerptDescriptionForFullStackDeveloperJob()
         );
     }
@@ -52,7 +57,7 @@ class ExceptTest extends TestCase
     public function testExcerptDescriptionForPhpDeveloperJob()
     {
         $this->assertEquals(
-            (new \Denkwerk\Service\ExceptService())->createExcerptFromText($this->getDescriptionForPhpDeveloperJob()),
+            (new ExcerptService())->createExcerptFromText($this->getDescriptionForPhpDeveloperJob()),
             $this->getExcerptDescriptionForPhpDeveloperJob()
         );
     }

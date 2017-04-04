@@ -2,7 +2,7 @@
 
 namespace Denkwerk\Tests;
 
-use Denkwerk\SfLiveTesting\Search;
+use Denkwerk\SfLiveTesting\SearchService;
 use PHPUnit\Framework\TestCase;
 
 class SearchTest extends TestCase
@@ -15,7 +15,7 @@ class SearchTest extends TestCase
      */
     public function testSorting(array $input, array $expected)
     {
-        $search = new Search();
+        $search = new SearchService();
 
         $output = $search->sort($input);
 

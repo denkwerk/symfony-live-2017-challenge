@@ -1,8 +1,8 @@
 <?php
-namespace Denkwerk\Service;
+namespace Denkwerk\SfLiveTesting;
 
 
-class ExceptService
+class ExcerptService
 {
 
     protected $dots = '...';

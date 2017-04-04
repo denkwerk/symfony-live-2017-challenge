@@ -2,7 +2,7 @@
 
 namespace Denkwerk\SfLiveTesting;
 
-class Search
+class SearchService
 {
     /**
      * Sort an array with special characters
