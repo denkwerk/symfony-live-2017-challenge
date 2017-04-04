@@ -20,5 +20,10 @@
         "psr-4": {
             "Denkwerk\\SfLiveTesting\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Denkwerk\\Tests\\": "tests/"
+        }
     }
 }
