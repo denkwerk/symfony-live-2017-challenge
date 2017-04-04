@@ -39,32 +39,32 @@ trait TextTrait
     //excerpts
     public function getExcerptTextAboutDenkwerk()
     {
-        return 'denkwerk zählt zu den führenden Digitalagenturen Deutschlands. Wir sind ein Team von 180 Denkern und Machern aus 19 Nationen. Gemeinsam sind wir auf einer Mission...';
+        return 'denkwerk zählt zu den führenden Digitalagenturen Deutschlands. Wir sind ein Team von 180 Denkern und Machern aus 19 Nationen. Gemeinsam sind ...';
     }
 
     public function getExcerptTextHowWeWork()
     {
-        return 'Wir arbeiten interdisziplinär, mit Fokus auf die Bedürfnisse der Nutzer und Blick auf die Spielräume der Zukunft. Dabei sehen wir unsere Kunden als Teil des Teams und ...';
+        return 'Wir arbeiten interdisziplinär, mit Fokus auf die Bedürfnisse der Nutzer und Blick auf die Spielräume der Zukunft. Dabei sehen wir unsere ...';
     }
 
     public function getExcerptTextDenkwerkClients()
     {
-        return 'Auf denkwerk vertrauen Unternehmen wie BMW, Deutsche Bank, E.ON, Condor, OBI, Storck, Telekom und Zwilling. Wenn auch Sie gemeinsam mit uns etwas Großartiges auf ...';
+        return 'Auf denkwerk vertrauen Unternehmen wie BMW, Deutsche Bank, E.ON, Condor, OBI, Storck, Telekom und Zwilling. Wenn auch Sie gemeinsam mit uns ...';
     }
 
     public function getExcerptDescriptionForSymfonyDeveloperJob()
     {
-        return 'Als Symfony Developer (m/w) bist Du für die technische Konzeption und Entwicklung von Webanwendungen auf Basis von Symfony innerhalb spannender Kundenprojekte ...';
+        return 'Als Symfony Developer (m/w) bist Du für die technische Konzeption und Entwicklung von Webanwendungen auf Basis von Symfony innerhalb ...';
     }
 
 
     public function getExcerptDescriptionForFullStackDeveloperJob()
     {
-        return 'Als FullStack Developer (m/w) (Full Stack) bist Du für die Umsetzung von Webprojekten gemeinsam mit Deinem interdisziplinären Team verantwortlich. Zu Deinen Aufgaben ...';
+        return 'Als FullStack Developer (m/w) (Full Stack) bist Du für die Umsetzung von Webprojekten gemeinsam mit Deinem interdisziplinären Team ...';
     }
 
     public function getExcerptDescriptionForPhpDeveloperJob()
     {
-        return 'Als PHP Entwickler (m/w) schreibst Du anspruchsvolle Software für komplexe Web-Applikationen. Als Mitglied eines interdisziplinären Teams bist Du in technisch ...';
+        return 'Als PHP Entwickler (m/w) schreibst Du anspruchsvolle Software für komplexe Web-Applikationen. Als Mitglied eines interdisziplinären Teams ...';
     }
 }
