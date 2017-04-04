@@ -24,7 +24,7 @@
 
     <testsuites>
         <testsuite name="Denkwerk Symfony Live 2017 Testing">
-            <directory>tests/**/*.php</directory>
+            <directory>tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>
