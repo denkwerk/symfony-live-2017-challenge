@@ -41,7 +41,7 @@ class DayInMonthTest extends TestCase
             ],
             [
                 \DateTime::createFromFormat('Y-m-d H:i:s', '2017-05-18 04:12:26'),
-                \DateTime::createFromFormat('Y-m-d H:i:S', '2017-05-01 00:00:00')
+                \DateTime::createFromFormat('Y-m-d H:i:s', '2017-05-01 00:00:00')
             ],
             [
                 \DateTime::createFromFormat('Y-m-d H:i:s', '2016-04-07 11:13:54'),
