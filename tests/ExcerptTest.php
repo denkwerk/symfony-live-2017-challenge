@@ -1,7 +1,7 @@
 <?php
 namespace Denkwerk\Tests;
 
-use Denkwerk\Service\Fixtures\TextTrait;
+use Denkwerk\SfLiveTesting\Fixtures\TextTrait;
 use Denkwerk\SfLiveTesting\ExcerptService;
 use PHPUnit\Framework\TestCase;
 
