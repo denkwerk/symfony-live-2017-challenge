@@ -5,7 +5,7 @@ use Denkwerk\SfLiveTesting\Fixtures\TextTrait;
 use Denkwerk\SfLiveTesting\ExcerptService;
 use PHPUnit\Framework\TestCase;
 
-class ExceptTest extends TestCase
+class ExcerptTest extends TestCase
 {
     /** FIXME
      * Your task is to fix these Tests

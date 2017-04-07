@@ -61,4 +61,41 @@ class DayInMonthTest extends TestCase
             ]
         ];
     }
+<<<<<<< HEAD
+=======
+
+    /**
+     * @dataProvider getDatesForThursday
+     *
+     * @param \DateTime $date
+     * @param \DateTime $expected
+     */
+    public function testValidDayForThursday(\DateTime $date, \DateTime $expected)
+    {
+        $service = new DayInMonthService(4, 3);
+
+        self::assertEquals(
+            $expected->format('Y-m-d H:i:s'),
+            $service->getDayInMonth($date)->format('Y-m-d H:i:s')
+        );
+    }
+
+    public function getDatesForThursday()
+    {
+        return [
+            [
+                \DateTime::createFromFormat('Y-m-d H:i:s', '2017-04-07 17:24:56'),
+                \DateTime::createFromFormat('Y-m-d H:i:s', '2017-04-27 00:00:00')
+            ],
+            [
+                \DateTime::createFromFormat('Y-m-d H:i:s', '2017-02-07 15:32:47'),
+                \DateTime::createFromFormat('Y-m-d H:i:s', '2017-02-23 00:00:00')
+            ],
+            [
+                \DateTime::createFromFormat('Y-m-d H:i:s', '2017-12-24 03:03:33'),
+                \DateTime::createFromFormat('Y-m-d H:i:s', '2017-12-28 00:00:00')
+            ]
+        ];
+    }
+>>>>>>> volkmareigler
 }

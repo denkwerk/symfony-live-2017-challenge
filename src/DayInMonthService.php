@@ -34,6 +34,21 @@ class DayInMonthService
      */
     public function getDayInMonth($date)
     {
-        return new \DateTime();
+        $arr = ['sun','mon','tue','wed','thu','fri','sat'];
+        $arr2 = ['first','second','third','fourth','fifth'];
+
+        if($this->position > 5) {
+          throw new \RuntimeException();
+        }
+        $dt = clone $date;
+        $string = $arr2[$this->position]. ' '.  $arr[$this->weekday].' of this month';
+        $dt = $dt->modify($string);
+        var_dump($string);
+        if($dt->format('m') != $date->format('m')) {
+          throw new \RuntimeException();
+        } else {
+          return $dt;
+        }
+
     }
 }
